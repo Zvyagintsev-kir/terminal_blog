@@ -9,6 +9,7 @@ post = Post(blog_id="123",
             content="This is some sample content",
             author="kzv")
 
+# another comment
 post.save_to_mongo()
 
 
